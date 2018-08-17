@@ -1,9 +1,12 @@
 <section class='container'>
-    <label>Name:</label>
+    <p>Name:    </p>
     <input type='text' placeholder='name' ng-model='$ctrl.profile.name'>
-    <label>Email:</label>
+
+    <p>Email:    </p>
     <input type='text' placeholder='name' ng-model='$ctrl.profile.email'>
-    <label>Profile:</label>
+
+    <p>Profile:    </p>
     <input type='text' placeholder='name' ng-model='$ctrl.profile.text'>
+
     <button ng-click="$ctrl.setUserProfile($ctrl.profile)">Update</button>
 </section>

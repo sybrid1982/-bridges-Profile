@@ -1,6 +1,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     background-color: #eee;
+    color: #505355;
 }
 
 img {
@@ -11,12 +12,29 @@ img {
     background-color: white;
     border-radius: 15px;
     width: 400px;
+    box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container > * {
     margin: 10px;
+    border-radius: 15px;
 }
 
-.container > input {
+.container input, .container button {
     padding: 14px;
+    border-radius: 15px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 20px;
+    color: #1ECEFD;
+}
+
+button {
+    background-color: #505355;
 }
