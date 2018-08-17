@@ -1,0 +1,22 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #eee;
+}
+
+img {
+    background-color: #1ECEFD;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.container > * {
+    margin: 10px;
+}
+
+.container > input {
+    padding: 14px;
+}

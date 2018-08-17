@@ -1,0 +1,7 @@
+<section class='container'>
+<img src=''>
+<h3>{{$ctrl.profile.name || 'Ted Danson, Star of Screen and Stage'}}</h3>
+<p>{{$ctrl.profile.email || 'teddanson@gmail.com' }}</p>
+<p>{{$ctrl.profile.text || "Unless you're Ted Danson, if you're seeing this, you're on a profile page that has failed."}}</p>
+<button ng-click='$ctrl.editUserProfile()'>Edit</button>
+</section>
